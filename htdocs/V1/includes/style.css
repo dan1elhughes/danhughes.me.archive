@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'OpenSansLight';
+    src: url('fonts/OpenSans-Light-webfont.eot');
+    src: url('fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/OpenSans-Light-webfont.woff') format('woff'),
+         url('fonts/OpenSans-Light-webfont.ttf') format('truetype'),
+         url('fonts/OpenSans-Light-webfont.svg#OpenSansLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@-webkit-keyframes FadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+html {
+	background-color: #000;
+	color: white;
+	font-family: OpenSansLight, sans-serif;
+	height: 100%;
+	width: 100%;
+}
+
+h1 {
+	font-size: 5em;
+	color: #fff;
+}
+
+h1:hover {
+	color: #aaa;
+}
+
+h2 {
+	font-size: 3em;
+	margin-bottom: 2px;
+}
+
+a {
+	text-decoration: none;
+	color: #6f6;
+}
+
+a:hover {
+	color: #1a1;
+}
+
+ul {
+	list-style-image: url(../images/bullet.png);
+	margin-left: -1.5em;
+}
+
+li {
+	padding-bottom: 10px;
+}
+
+#image {
+	position: fixed;
+	width: 20%;
+	top: 0;
+	right: 10%;
+	z-index: -1;
+}
+
+#name {
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+#name img {
+	position: relative;
+	top: -20px;
+	border: none;
+}
+
+#content {
+	width: 50%;
+	max-width: 700px;
+	margin-left: 10%;
+	padding-bottom: 20px;
+}
+
+/*Responsive*/
+
+@media only screen and (max-width: 768px) {
+
+h1 {
+	font-size: 3em;
+	text-align: center;
+}
+
+h2 {
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.icon {
+	top: -20px;
+	text-align: center;
+}
+
+#image {
+	display: none !important;
+}
+
+#name {
+padding-bottom: 0;
+}
+
+#content {
+	width: 80%;
+	margin-left: 10%;
+}
+
+}

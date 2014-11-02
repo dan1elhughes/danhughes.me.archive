@@ -1,6 +1,6 @@
 <?php
 $rooturl="workshop.xes.io";
-$rootpath="/danhughes.me/v1/";?>
+$rootpath="/danhughes.me.archive/V1/";?>
 <!DOCTYPE html>
 <html>
 	<head>

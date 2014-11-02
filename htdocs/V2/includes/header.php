@@ -2,7 +2,7 @@
 <?php 
 /* Change the following values to automatically change all links. If hosted on own domain, use "/" for rootpath. Otherwise enter subfolder. */
 $rooturl="workshop.xes.io";
-$rootpath="/danhughes.me/V2/";
+$rootpath="/danhughes.me.archive/V2/";
 
 $navigationlinks = array(
     "Home" => "",
